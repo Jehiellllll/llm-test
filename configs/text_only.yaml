@@ -1,0 +1,8 @@
+# override default for text-only baseline
+seed:
+  seed: 42
+text:
+  max_features: 5000
+experiment:
+  output_dir: outputs
+  device: cpu

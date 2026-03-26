@@ -1,0 +1,12 @@
+seed:
+  seed: 42
+kb:
+  top_k: 5
+  backend: faiss
+aggregator:
+  alpha: 0.7
+  beta: 0.3
+  mode: weighted
+experiment:
+  output_dir: outputs
+  device: cpu

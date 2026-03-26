@@ -1,0 +1,35 @@
+seed:
+  seed: 42
+
+text:
+  max_features: 5000
+
+image:
+  bins: 16
+  resize: 64
+  video_sample_fps: 2
+  max_video_frames: 8
+
+fusion:
+  discrepancy_threshold: 0.25
+  refinement_strength: 0.3
+
+kb:
+  top_k: 5
+  backend: faiss
+
+aggregator:
+  alpha: 0.7
+  beta: 0.3
+  mode: weighted
+
+train:
+  epochs: 25
+  lr: 0.01
+  weight_decay: 0.0
+  hidden_dim: 128
+  batch_size: 64
+
+experiment:
+  output_dir: outputs
+  device: cpu
