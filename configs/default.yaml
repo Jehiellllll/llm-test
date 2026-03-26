@@ -1,0 +1,7 @@
+random_state: 42
+text_max_features: 5000
+kb_max_features: 2000
+image_bins: 16
+classifier_c: 1.0
+output_dir: outputs
+ablations: []
